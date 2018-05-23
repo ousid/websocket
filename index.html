@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Tcp/ip application </title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" />
+		<link rel="stylesheet" href="css/main.css" media="screen" title="no title" />
+	</head>
+	<body>
+		
+		<div class="container">
+			<h2 class="text-center text-info">TCP/IP | UDP Application</h2>			
+			<div class="row">
+				<div class="col col-md-8 col-md-push-4">
+					<h3 class="text-warning text-center">Salle de Chat</h3>
+					<div class="message-append"></div>
+					<div class="message-list-parent">
+							<ul class="messages-list list-unstyled"></ul>
+					</div>
+				</div>
+
+				<div class="col col-md-4 col-md-pull-8">
+					<h3> <span> Votre Nom: </span> <small class="username text-info"></small></h3>
+					<form class="username-setter" action="" method="post">
+						<div class="form-group username-text">
+							<label for="username">définir le nom d'utilisateur </label>
+							<input type="text" name="name" value="" class="form-control username-input" />
+							<p class="text-danger valid-user"><b>mettre un nom d'utilisateur valide</b></p>
+						</div>
+						<button class="btn btn-primary btn-block" type="submit" name="button">Obtenir </button>  
+					</form>
+					<hr />
+					<h3 class="text-center text-warning offline"> Vous êtes maintenant déconnecté </h3>
+
+					<button class="btn btn-info btn-block btn-lg connect" >Connecté</button>
+					<button class="btn btn-warning btn-block btn-lg deconnect">deconnecté</button>
+
+					<form action="" class="chatForm" method="posts">
+						<hr />
+						<div class="form-group">
+							<label for="message">Votre Message</label>
+							<textarea name="messgae" id="message" class="form-control message-content" placeholder="Créer un message" rows="9"></textarea>
+						</div>
+						<div>
+							<button type="submit"  name="button" class=" btn btn-primary btn-block sendMessage">Envoyer</button>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
