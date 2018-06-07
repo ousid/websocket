@@ -103,7 +103,6 @@ $(document).ready(function () {
 
 		// check if the value of the content message is not empty
 		if ( messageInput.val !== '' ) {
-			console.log(messageInput);
 
 			// create new object
 			var message = {
@@ -164,6 +163,7 @@ $(document).ready(function () {
 
 		conn.onclose = function(e) {
 			console.log("Disconnected");
+			console.log(e);
 			setOffline();
 			$('.connected').fadeOut(100);
 			$('.message-append').html('<div class="desconnect">Le chat était déconnecté </div>');

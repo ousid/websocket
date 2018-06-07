@@ -1,5 +1,4 @@
 <?php 
-
 session_start();
 
 require 'vendor/autoload.php';
@@ -21,4 +20,4 @@ $server = IoServer::factory(
 	8080
 );
 
-$server->run(); 
+$server->run();
