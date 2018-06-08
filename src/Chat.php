@@ -56,7 +56,11 @@ class Chat implements MessageComponentInterface
 	public function onMessage( ConnectionInterface $from, $msg )
 	{
 		$msg = json_decode($msg);
+<<<<<<< HEAD
 		echo "Received a New {$msg->type}: {$msg->text} From {$msg->sender}\n";
+=======
+		echo "Received a New Message: {$msg->text}\n";
+>>>>>>> 4f5c98e1c5933be0184880c69ab7d8e6ea7bbc25
 
 		switch( $msg->type ) {
 			case 'message':

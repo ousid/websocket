@@ -9,11 +9,16 @@ body {
 
 .message-list-parent {
 	padding: 30px;
+<<<<<<< HEAD
 	margin-top: 25px;;
+=======
+	margin-top: 35px;;
+>>>>>>> 4f5c98e1c5933be0184880c69ab7d8e6ea7bbc25
 	background: #f5f3f3c7;
     border-radius: 2px;
     overflow-y: auto;
     overflow-wrap: break-word;
+<<<<<<< HEAD
     height: 525px;
 	margin-bottom: 20px;
     border-bottom: 3px solid #ffbc00;
@@ -21,6 +26,11 @@ body {
 	-moz-box-shadow: 0px 0px 5px 1px #DDD;    
 	-o-box-shadow: 0px 0px 5px 1px #DDD;    
 	box-shadow: 0px 0px 5px 1px #DDD;    
+=======
+    height: 490px;
+	margin-bottom: 20px;
+    border-bottom: 3px solid #ffbc00;
+>>>>>>> 4f5c98e1c5933be0184880c69ab7d8e6ea7bbc25
 }
 
 .messages-list {

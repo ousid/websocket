@@ -1,4 +1,8 @@
 <?php 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4f5c98e1c5933be0184880c69ab7d8e6ea7bbc25
 session_start();
 
 require 'vendor/autoload.php';
@@ -20,4 +24,8 @@ $server = IoServer::factory(
 	8080
 );
 
+<<<<<<< HEAD
 $server->run();
+=======
+$server->run(); 
+>>>>>>> 4f5c98e1c5933be0184880c69ab7d8e6ea7bbc25
